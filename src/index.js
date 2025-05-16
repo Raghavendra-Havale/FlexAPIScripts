@@ -24,7 +24,7 @@ class BlockchainAPIClient {
      */
     async createAccount(accountData) {
         try {
-            const token = 'JWT_Token';
+            const token = 'JWTToken';
             
             const response = await this.client.post(
                 '/api/account/',
@@ -237,7 +237,7 @@ class BlockchainAPIClient {
         try {
             const token = 'JWTToken';
             const response = await this.client.get(
-                '/api/contract/getEvents',
+                '/api/contract/getContractSubscribedEvents',
                 {
                     params,
                     headers: {

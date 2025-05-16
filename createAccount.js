@@ -6,7 +6,7 @@ async function testCreateAccount() {
         
         // Example account data
         const accountData = {
-            username: 'User2Raghav',
+            username: 'friendRaghav',
             accountUserType: 'User',
             userId: '68218a466fe21072bddef50a'
         };
